@@ -135,9 +135,10 @@ class UserController {
     }
   }
 
+////http://localhost:8000/api/user/user-detail?userid=65020a18d1337616d2c00798
   static userDetail = async (req, res) => {
     try {
-      const  userid = '64a5bdd6ec5acd81d348c49d';//req.query.userid
+      const  userid = req.query.userid
       if (userid) { 
         const user_detail =  await UserModel.findById(userid)
         console.log(user_detail);
