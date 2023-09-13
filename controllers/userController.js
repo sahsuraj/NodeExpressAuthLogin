@@ -135,7 +135,7 @@ class UserController {
     }
   }
 
-////http://localhost:8000/api/user/user-detail?userid=65020a18d1337616d2c00798
+//http://localhost:8000/api/user/user-detail?userid=65020a18d1337616d2c007
   static userDetail = async (req, res) => {
     try {
       const  userid = req.query.userid
