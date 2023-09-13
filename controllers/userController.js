@@ -155,7 +155,7 @@ class UserController {
       res.send({ "status": "failed", "message": "Unable to get data" })
     }
   }
- //1 change
+ //1 change new
 }
 
 module.exports  = UserController
